@@ -18,7 +18,7 @@
 ** User Stories
    - As a user I want to GET from URLs
    - As a user I want to GET from URLs that use virtualhosting
-   - As a user I want to POST to URLs
+   - As a user I want to POST to URLs #not done
    - As a user I want to POST from URLs that use virtualhosting
    - As a user when I GET or POST I want the result printed to stdout
    - As a developer when I GET or POST I want the result returned as
@@ -26,7 +26,7 @@
 
 ** Requirements
    - [ ] Implement basic HTTP GET
-   - [ ] Implement basic HTTP POST
+   - [ ] Implement basic HTTP POST #not done
    - [ ] The httpclient can pass all the tests in freetests.py
    - [ ] The webserver can pass all the tests in not-free-tests.py
      (you don't have this one! it can change -- but it will be fair to the user stories/requirements)
@@ -64,10 +64,10 @@
      - Line 2: Your CCID
    - An example submission looks like this
     #+BEGIN_SRC bash
-        https://github.com/youruserid/thisassignment.git 
+        https://github.com/youruserid/thisassignment.git
         yourccid
     #+END_SRC
-   - To mark your assignment I should be able to type:     
+   - To mark your assignment I should be able to type:
     #+BEGIN_SRC bash
         git clone http://github.com/youruserid/thisassignment.git yourccid
         cd yourccid
@@ -75,9 +75,9 @@
     #+END_SRC
 
    - Marks will be deducted if I cannot successfully do this.
-     
+
    - Marks will be deducted for using library code that does the assignment.
-   
+
    - Marks can be deducated for egregious violation of requirements (e.g. hard
      coding path names etc.).
 
